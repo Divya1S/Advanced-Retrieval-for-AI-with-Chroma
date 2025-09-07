@@ -2,6 +2,14 @@
 <html>
 <head>
     <title>Information Retrieval and RAG Enhancement Techniques</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 20px; }
+        h1, h2 { color: #333; }
+        code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 4px; }
+        ul, ol { margin: 10px 0; }
+        li { margin: 5px 0; }
+    </style>
 </head>
 <body>
     <h1>Information Retrieval and RAG Enhancement Techniques</h1>
@@ -30,7 +38,7 @@
             <ul>
                 <li>Python 3.8+</li>
                 <li>Jupyter Notebook or JupyterLab</li>
-                <li>Libraries: (Specify required libraries, e.g., <code>transformers</code>, <code>numpy</code>, <code>torch</code>, etc., as used in the notebooks)</li>
+                <li>Libraries: <code>transformers</code>, <code>numpy</code>, <code>torch</code>, and other dependencies as specified in the notebooks.</li>
             </ul>
         </li>
         <li><b>Installation</b>:
