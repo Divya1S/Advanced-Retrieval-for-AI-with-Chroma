@@ -1,55 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Information Retrieval and RAG Enhancement Techniques</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 20px; }
-        h1, h2 { color: #333; }
-        code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 4px; }
-        ul, ol { margin: 10px 0; }
-        li { margin: 5px 0; }
-    </style>
-</head>
-<body>
-    <h1>Information Retrieval and RAG Enhancement Techniques</h1>
-    <p>This repository contains Jupyter notebooks (<code>L1.ipynb</code> to <code>L5.ipynb</code>) demonstrating advanced techniques to improve the relevancy of results in Information Retrieval (IR) and Retrieval Augmented Generation (RAG). These techniques address the common issue where queries return semantically similar but irrelevant results, or include distracting material that can mislead a Large Language Model (LLM).</p>
+# Information Retrieval and RAG Enhancement Techniques
 
-    <h2>Overview</h2>
-    <p>Effective IR and RAG depend on retrieving information from a database that is both relevant to the query and useful for its intended application. The notebooks in this repository explore methods to enhance retrieval relevancy, focusing on the following techniques:</p>
-    <ol>
-        <li><b>Query Expansion</b>: Enhances user queries by incorporating related concepts and keywords. Using an LLM, this traditional technique becomes more effective. Another approach involves the LLM suggesting a possible answer, which is then included in the query to refine results.</li>
-        <li><b>Cross-encoder Reranking</b>: Improves retrieval by reranking results to prioritize those most relevant to the query.</li>
-        <li><b>Training and Utilizing Embedding Adapters</b>: Adds an adapter layer to reshape embeddings, emphasizing elements relevant to the specific application.</li>
-    </ol>
+This repository contains Jupyter notebooks (`L1.ipynb` to `L5.ipynb`) demonstrating advanced techniques to improve the relevancy of results in Information Retrieval (IR) and Retrieval Augmented Generation (RAG). These techniques address the common issue where queries return semantically similar but irrelevant results, or include distracting material that can mislead a Large Language Model (LLM).
 
-    <h2>Notebooks</h2>
-    <ul>
-        <li><b>L1.ipynb</b>: Introduction to IR and RAG, with an overview of challenges in retrieving relevant results.</li>
-        <li><b>L2.ipynb</b>: Implementation of Query Expansion using an LLM to include related concepts and keywords.</li>
-        <li><b>L3.ipynb</b>: Advanced Query Expansion with LLM-suggested answers integrated into the query.</li>
-        <li><b>L4.ipynb</b>: Cross-encoder Reranking to prioritize the most relevant retrieval results.</li>
-        <li><b>L5.ipynb</b>: Training and applying Embedding Adapters to enhance retrieval relevancy.</li>
-    </ul>
+---
 
-    <h2>Getting Started</h2>
-    <ol>
-        <li><b>Prerequisites</b>:
-            <ul>
-                <li>Python 3.8+</li>
-                <li>Jupyter Notebook or JupyterLab</li>
-                <li>Libraries: <code>transformers</code>, <code>numpy</code>, <code>torch</code>, and other dependencies as specified in the notebooks.</li>
-            </ul>
-        </li>
-        <li><b>Installation</b>:
-            <pre><code>pip install -r requirements.txt</code></pre>
-        </li>
-        <li><b>Running the Notebooks</b>:
-            <ul>
-                <li>Open the desired notebook (<code>L1.ipynb</code> to <code>L5.ipynb</code>) in Jupyter.</li>
-                <li>Follow the instructions within each notebook to explore the respective technique.</li>
-            </ul>
-        </li>
-    </ol>
-</body>
-</html>
+## Overview
+
+Effective IR and RAG depend on retrieving information from a database that is both relevant to the query and useful for its intended application. The notebooks in this repository explore methods to enhance retrieval relevancy, focusing on the following techniques:
+
+1. **Query Expansion**  
+   Enhances user queries by incorporating related concepts and keywords. Using an LLM, this traditional technique becomes more effective. Another approach involves the LLM suggesting a possible answer, which is then included in the query to refine results.
+
+2. **Cross-encoder Reranking**  
+   Improves retrieval by reranking results to prioritize those most relevant to the query.
+
+3. **Training and Utilizing Embedding Adapters**  
+   Adds an adapter layer to reshape embeddings, emphasizing elements relevant to the specific application.
+
+---
+
+## Notebooks
+
+- **L1.ipynb**: Introduction to IR and RAG, with an overview of challenges in retrieving relevant results.  
+- **L2.ipynb**: Implementation of Query Expansion using an LLM to include related concepts and keywords.  
+- **L3.ipynb**: Advanced Query Expansion with LLM-suggested answers integrated into the query.  
+- **L4.ipynb**: Cross-encoder Reranking to prioritize the most relevant retrieval results.  
+- **L5.ipynb**: Training and applying Embedding Adapters to enhance retrieval relevancy.  
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+  
+- Jupyter Notebook or JupyterLab  
+- Libraries: `transformers`, `numpy`, `torch`, and other dependencies as specified in the notebooks  
+
+### Installation
+```bash
+pip install -r requirements.txt
+
